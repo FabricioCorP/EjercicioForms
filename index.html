@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <form class="form">
+      <div class="form__section">
+        <h2 class="form__title">Información de contacto</h2>
+        <div class="form__group">
+          <label class="form__label" for="email">Correo electrónico</label>
+          <input
+            class="form__input"
+            type="email"
+            id="email"
+            name="email"
+            required
+          />
+        </div>
+      </div>
+
+      <div class="form__section">
+        <h2 class="form__title">Información de Envio</h2>
+        <div class="form__row">
+          <div class="form__group">
+            <label class="form__label" for="name">Nombre:</label>
+            <input
+              class="form__input"
+              type="text"
+              id="name"
+              name="userName"
+              required
+            />
+          </div>
+
+          <div class="form__group">
+            <label class="form__label" for="lastname">Apellido:</label>
+            <input
+              class="form__input"
+              type="text"
+              id="lastname"
+              name="userLastName"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="form__group">
+          <label class="form__label" for="company">Compañia:</label>
+          <input
+            class="form__input"
+            type="text"
+            id="company"
+            name="userCompany"
+          />
+        </div>
+
+        <div class="form__group">
+          <label class="form__label" for="direccion">Direccion:</label>
+          <input
+            class="form__input"
+            type="text"
+            id="direccion"
+            name="userDireccion"
+            required
+          />
+        </div>
+
+        <div class="form__group">
+          <label class="form__label" for="ciudad">Ciudad:</label>
+          <input
+            class="form__input"
+            type="text"
+            id="ciudad"
+            name="userCiudad"
+            required
+          />
+        </div>
+
+        <div class="form__group">
+          <label class="form__label" for="pais">Pais:</label>
+          <input
+            class="form__input"
+            type="text"
+            id="pais"
+            name="userPais"
+            required
+          />
+        </div>
+
+        <div class="form__group">
+          <label class="form__label" for="provincia-estado">Provincia/Estado:</label>
+          <input
+            class="form__input"
+            type="text"
+            id="provincia-estado"
+            name="userProvincia"
+            required
+          />
+        </div>
+
+        <div class="form__group">
+          <label class="form__label" for="codigo-postal">Codigo Postal:</label>
+          <input
+            class="form__input"
+            type="text"
+            id="codigo-postal"
+            name="userCodigoPostal"
+          />
+        </div>
+
+        <div class="form__group">
+          <label class="form__label" for="telefono">Telefono</label>
+          <input
+            class="form__input"
+            type="number"
+            id="telefono"
+            name="userPhone"
+          />
+        </div>
+      </div>
+      <div class="form__section">
+        <input class="form__button" type="submit" value="Confirmar Orden" />
+      </div>
+    </form>
+  </body>
+</html>
